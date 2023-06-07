@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build:day1": "tsc --outDir dist ./Day1/day1.ts",
+    "build": "yarn build:day1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "fs": "^0.0.1-security"
+  }
+}
